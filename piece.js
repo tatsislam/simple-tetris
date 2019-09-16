@@ -6,7 +6,9 @@ class Piece {
 
     // Draws the piece on the board
     draw() {
-        // stub for child classes
+        
+        ctx.fillStyle = "#FFFFFF";
+        ctx.fillRect(1, 0.25, 29, 29/4);
     }
 
     move_left() {

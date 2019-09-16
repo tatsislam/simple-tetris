@@ -37,7 +37,7 @@ function play() {
 
 // draws the vertical alignment lines on the board
 function draw_line(x, y) {
-    ctx.fillStyle = "#5e5e5e";
+    ctx.fillStyle = "#5e5e5e";  
     ctx.fillRect(x, y, 1, 600);
 }
 
